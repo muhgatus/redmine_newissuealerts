@@ -28,9 +28,9 @@ People from that group and/or manager will still have to assign the issue to the
 
 ==Compatibility
 
-This plugin should compatible with Redmine 0.9.x, 1.x as well as with the current Redmine trunk.
+This plugin should compatible with Redmine 0.9.x, 1.x, 1.3.x as well as with the current Redmine trunk.
 
-It was last tested against Redmine 1.2.1
+It was last tested against Redmine 1.3.0
 
 ==Obtaining 
 

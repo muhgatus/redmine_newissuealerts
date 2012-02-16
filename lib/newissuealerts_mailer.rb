@@ -1,6 +1,8 @@
 require "mailer"
 
 class NewissuealertsMailer < Mailer
+  self.instance_variable_get("@inheritable_attributes")[:view_paths] << RAILS_ROOT + "/vendor/plugins/redmine_newissuealerts/app/views"
+
   def newissuealert( email, issue, newissuealert)
     project = issue.project
     tracker = issue.tracker
